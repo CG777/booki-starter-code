@@ -12,6 +12,40 @@
 .fa-solid {
     color: var(--main-color);
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: auto;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--secondary-color);
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: var(--main-color);
+}
+
+.fa-solid {
+    color: var(--main-color);
+}
 
 body {
     display: flex;
@@ -120,7 +154,12 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
+.card {
+    border: 1px white solid;
+}
+.card:hover {
+    border-top: 3px #0065FC solid;
+}
 
 
 
