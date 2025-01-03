@@ -17,19 +17,29 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border-bottom: 1px solid #ddd;
     width: 100%;
 }
 
 header .logo img {
-    width: 150px;
+    width: 61px;
+    height: auto
 }
 
 header nav ul {
     display: flex;
-    gap: 20px;
+    gap: 68px;
     list-style: none;
     margin-left: auto;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-primary {
+    color: #d9d9d9;
+    background-color: #0065FC;
 }
 
 header nav ul li a {
@@ -37,6 +47,28 @@ header nav ul li a {
     font-weight: 700;
     color: var(--secondary-color);
     transition: color 0.3s;
+}
+
+.filter {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   gap: 15px;
+   align-items: center;
+}
+
+.btnfilter {
+    background-color: #F2F2F2;
+    border: 2px #d9d9d9;
+    border-radius: 25px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.btnfilter:hover {
+    background-color: #DEEBFF;
 }
 
 header nav ul li a:hover {
@@ -108,6 +140,21 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hebergements-card .card {
+}
+
+.hebergements-card img{
+    width: auto;
+    height: 120px;
+}
+.hebergement-cards .card-content{
 }
 
 /****** Populaires ***********/
