@@ -51,25 +51,11 @@ header nav ul li a:hover {
 .search-bar {
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
     gap: 0px;
     height: 49px;
 }
 .btn-primary {
     color: white;
-=======
-    width: 377px;
-    height: 49px;
-}
-
-.search-location {
-    width: 145px;
-    height: 49px;
-}
-
-.btn-primary {
-    color: #d9d9d9;
->>>>>>> 0d1f92f03bbd7a6ee92d082ddfcb4b1a38983894
     background-color: #0065FC;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -180,11 +166,7 @@ a {
 }
 
 .hebergements-cards img {
-<<<<<<< HEAD
     width: 240px;
-=======
-    width: 100%;
->>>>>>> 0d1f92f03bbd7a6ee92d082ddfcb4b1a38983894
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -243,7 +225,6 @@ a {
     border-top: 3px #0065FC solid;
 }
 
-<<<<<<< HEAD
 /* Activites */
 
 .activites {
@@ -268,8 +249,6 @@ a {
     object-fit: cover;
 }
 
-=======
->>>>>>> 0d1f92f03bbd7a6ee92d082ddfcb4b1a38983894
 /* Footer */
 
 .footer {
@@ -277,17 +256,12 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: end;
-<<<<<<< HEAD
     background-color: #F2F2F2;
     padding: 20px;
     gap: 15px;
 }
  
 .footer nav ul li a {
-=======
-}
-footer nav ul li a {
->>>>>>> 0d1f92f03bbd7a6ee92d082ddfcb4b1a38983894
     text-decoration: none;
 }
 
