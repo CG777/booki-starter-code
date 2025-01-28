@@ -9,6 +9,7 @@
     --filter-bg-color: #DEEBFF;
 }
 
+<<<<<<< HEAD
 body {
     display: flex;
     flex-direction: column;
@@ -21,6 +22,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
+=======
+.search-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0%;
+    width: 377px;
+    height: 49px;
+}
+
+.fa-solid {
+    color: var(--main-color);
+    background-color: #d9d9d9;
+>>>>>>> 7be0bb2ae978b107adcd9dcfb5cbf9fb242dbbc8
 }
 
 /* Header*/
@@ -288,14 +303,21 @@ a {
 
 .activites-title {
     display: flex;
+<<<<<<< HEAD
+=======
+    justify-content: space-between;
+>>>>>>> 7be0bb2ae978b107adcd9dcfb5cbf9fb242dbbc8
     margin-bottom: 20px;
     margin-top: 100px;
 }
 
+<<<<<<< HEAD
 .activites-cards .card-title{
     margin-left: 10px;
 }
 
+=======
+>>>>>>> 7be0bb2ae978b107adcd9dcfb5cbf9fb242dbbc8
 .activites-cards {
     display: flex;
     flex-direction: row;
@@ -336,13 +358,22 @@ a {
 .footer-section {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     align-items: start;
+=======
+    justify-content:left;
+    align-items: start;
+    margin: 30px;
+>>>>>>> 7be0bb2ae978b107adcd9dcfb5cbf9fb242dbbc8
     width: 33%;
 }
 
 .footer ul {
+<<<<<<< HEAD
     display: block;
     line-height: 30px;
+=======
+>>>>>>> 7be0bb2ae978b107adcd9dcfb5cbf9fb242dbbc8
     list-style-type: none;
     padding-left: 0px;
 }
@@ -356,10 +387,12 @@ a {
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column;
+
     }
 
     .hebergements {
         display: flex;
+<<<<<<< HEAD
         width: 100%;
         flex-wrap: wrap;
     }
@@ -367,6 +400,17 @@ a {
     .populaires {
         height: 252px;
         width: auto;
+=======
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .populaires {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+>>>>>>> 7be0bb2ae978b107adcd9dcfb5cbf9fb242dbbc8
         margin-top: 50px;
     }
     .populaires-cards {
@@ -388,6 +432,7 @@ a {
     }
 
     .activites {
+<<<<<<< HEAD
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -406,6 +451,10 @@ a {
         width: 193px;
         height: 100%;
         overflow: hidden;
+=======
+        width: 100%;
+    }
+>>>>>>> 7be0bb2ae978b107adcd9dcfb5cbf9fb242dbbc8
 }
 
 /* Small devices (phones, less than 768px) */
