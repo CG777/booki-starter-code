@@ -195,11 +195,11 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    background-color: #F2F2F2;
+    border-radius: 20px;
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
-    border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
 }
@@ -310,8 +310,6 @@ a {
     flex-wrap: wrap;
 }
 
-
-
 .activites-cards img {
     width: 297px;
     height: 380px;
@@ -350,6 +348,7 @@ a {
 
 .footer ul {
     display: block;
+    margin-top: 0px;
     line-height: 30px;
     list-style-type: none;
     padding-left: 0px;
@@ -361,10 +360,10 @@ a {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1024px) {
+
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column;
-
     }
 
 
@@ -421,27 +420,174 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    .main-container {
+        padding: 0%;
+    }
+
+    /* Header */
+
     header {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+        text-align: center;
     }   
 
     header .logo img {
         width: 61px;
         height: 19px;
+        margin: 60px;
     }
 
     header nav ul {
-        
+        display: flex;
+        flex-direction: row;
+    }
+
+    header nav ul li a:hover {
+    color: var(--main-color);
+    border-top: none;
+    border-bottom: 2px #0065FC solid;
+    }
+
+    /*Recherche*/
+
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        width: 335px;
+        padding-bottom: 30px;
+        padding-top: 20px;
     }
 
     .btn-loupe {
         display: block;
+        display: flex;
+        background: #007BFF;
+        color: white;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+        cursor: pointer;
     }
 
     .btn-primary{
         display: none;
     }
-    flex-direction: column-reverse;
+
+    .filter {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        margin: auto;
+    }
+
+    .filtre {
+        display: flex;
+        align-items: start;
+    }
+
+    .btnfilter {
+        background-color:white;
+        border: 2px #d9d9d9;
+        border-radius: 25px;
+        height: 50px;
+        gap: 10px;
+        border: 2px #d9d9d9 solid;
+    }
+
+    /*Herbergements et Populaires */
+
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: 0px;
+    }
+
+    .populaires {
+        width: auto;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .populaires-cards .card {
+        width: 335px;
+        height: 146px;
+    }
+
+    .populaires-cards img {
+        height: 146px;
+        width: 111px;
+    }
+
+    .hebergements {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: white;
+    }
+
+    .hebergements-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hebergements-cards img {
+        width: 335px;
+        height: 124px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+}
+    .hebergements-cards .cards {
+        width: 250px;
+        height: 207px;
+}
+
+    /*Activites*/
+
+
+    .activites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .activites-cards img {
+        width: 315px;
+        height: 141px;
+    }
+    
+    .activites-cards .card {
+        width: 315px; 
+        height: 200px;
+    }
+
+    /*footer*/
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .footer-section {
+        padding-left: 10px;
+        width: 100%;
+    }
 }
